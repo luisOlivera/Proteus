@@ -1,0 +1,74 @@
+<!--
+<ul *ngIf="!isCosto">
+  <li *ngFor="let producto of productos">
+    {{producto.codigo}} - {{ producto.nombre }} / {{producto.precio}}
+  </li>
+</ul>
+
+<ul *ngIf="isCosto">
+  <li *ngFor="let producto of productos">
+    {{producto.codigo}} - {{ producto.nombre }} / {{producto.costo}}
+  </li>
+</ul>
+
+<input type="text" (keypress)="teclear()">
+
+<input type="checkbox" [(ngModel)]="isCosto"> Precio al Costo.
+-->
+
+<div class="canasta">
+
+<div class="codigo">
+
+<input type="text" class="caja-codigo">
+
+</div>
+
+<div class="detalle">
+
+<table>
+
+<tr>
+
+<th>Codigo</th>
+
+<th>Producto</th>
+
+<th>Cantidad</th>
+
+<th>Subtotal</th>
+
+<th></th>
+
+</tr>
+
+<tr>
+
+<td>111</td>
+
+<td>Playstation 4</td>
+
+<td>1</td>
+
+<td>50</td>
+
+<td><button>Quitar</button></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div class="acciones">
+
+<div class="total">TOTAL:</div>
+
+<button class="boton-cancelar">Cancelar</button>
+
+<button class="boton-pagar">Pagar</button>
+
+</div>
+
+</div>
+

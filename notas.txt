@@ -1,0 +1,16 @@
+ng new proteus // crear proyecto Angular
+npm start // iniciar app
+ng generate component mi_componente //Crear Componente 
+ng generate module mi_modulo //Crear Modulo
+
+
+Angular hooks
+OnInit , se crear
+OnChanges, verifica cambios
+OnDestroy, se destruye
+
+{{}} interpolacion
+
+typescript
+
+ng service module mi_modulo
